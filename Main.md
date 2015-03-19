@@ -1,0 +1,16 @@
+#Main page of quteqoin wiki
+
+# Introduction #
+
+Quteqoin is the next major hard mouling agent
+
+
+# Features #
+
+Current features includes :
+  * A multi tabbeb / multi threade pinni
+  * A feature complete palmi
+  * A totoz manager
+  * A graphical configuration tool for easily managing your quteqoni
+
+Here is the [TODO](TODO.md)
