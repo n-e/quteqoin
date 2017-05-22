@@ -228,6 +228,8 @@ void QQPalmipede::bouchotSelectorActivated(int index)
 	}
 	changeNorloges(bouchot);
 	QColor bouchotColor = m_ui->boardSelectorComboBox->itemData(index).value<QColor>();
+	if(! bouchotColor.isValid())
+		bouchotColor = Qt::white;
 	m_ui->palmiEditor->changeColor(bouchotColor);
 	m_ui->palmiEditor->setFocus();
 	m_oldBouchot = bouchot;
